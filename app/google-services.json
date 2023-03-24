@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "565097285030",
+    "project_id": "babybuy-ddf10",
+    "storage_bucket": "babybuy-ddf10.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:565097285030:android:774ba4a775eb9ada25fb67",
+        "android_client_info": {
+          "package_name": "com.pujan.babybuy"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "565097285030-ens5t3tu7scktq8ego9cqq0fnakoae9k.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB7a6RJVmrgMkHFjTl5L01TUMRhToXjXX4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "565097285030-ens5t3tu7scktq8ego9cqq0fnakoae9k.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

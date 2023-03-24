@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/recCard"
+    android:layout_marginStart="12dp"
+    android:layout_marginEnd="12dp"
+    android:layout_marginHorizontal="10dp"
+    android:layout_marginVertical="10dp"
+    app:cardCornerRadius="20dp"
+    app:cardElevation="10dp">
+
+    <RelativeLayout
+        android:layout_width="430dp"
+        android:layout_height="match_parent">
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/prdImage"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginStart="20dp"
+            android:padding="8dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/uploadimg"
+            app:shapeAppearanceOverlay="@style/roundedImageViewRounded" />
+
+        <TextView
+            android:id="@+id/prdTitle"
+            android:layout_width="120dp"
+            android:layout_height="30dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_toEndOf="@id/prdImage"
+            android:text="Title"
+            android:textColor="@color/lavender"
+            android:textSize="20sp" />
+        <TextView
+            android:id="@+id/prdPrice"
+            android:layout_width="80dp"
+            android:layout_height="30dp"
+            android:layout_marginStart="213dp"
+            android:layout_marginTop="20dp"
+            android:layout_toEndOf="@id/prdImage"
+            android:text="Price"
+            android:textColor="@color/lavender"
+            android:textSize="16sp"
+            android:textAlignment="center"/>
+
+        <TextView
+            android:id="@+id/prdDesc"
+            android:layout_width="140dp"
+            android:layout_height="12dp"
+            android:layout_marginStart="20dp"
+            android:layout_below="@id/prdTitle"
+            android:layout_toEndOf="@id/prdImage"
+            android:text="Description"
+            android:maxLength="0"
+            android:textColor="@color/lavender"
+            android:textSize="8sp" />
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

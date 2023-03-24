@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  babybuy:
+    image: babybuy
+    build:
+      context: .
+      dockerfile: ./Dockerfile
